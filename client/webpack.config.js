@@ -14,7 +14,7 @@ module.exports = () => {
       install: "./src/js/install.js",
     },
     output: {
-      filename: "editor.bundle.js",
+      filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
     plugins: [
